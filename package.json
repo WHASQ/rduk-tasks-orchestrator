@@ -1,0 +1,25 @@
+{
+  "name": "task-manager",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "author": "RDUK <tech@rduk.fr>",
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "express": "^4.16.3",
+    "redis": "^2.8.0",
+    "socket.io": "^2.1.0",
+    "uuid": "^3.2.1"
+  },
+  "peerDependencies": {
+    "@rduk/configuration": "2.x",
+    "@rduk/logger": "1.x",
+    "@rduk/message-broker": "2.x"
+  },
+  "devDependencies": {
+    "@rduk/configuration": "^2.2.0",
+    "@rduk/logger": "^1.0.1",
+    "@rduk/message-broker": "^2.4.0",
+    "dotenv": "^5.0.1"
+  }
+}
