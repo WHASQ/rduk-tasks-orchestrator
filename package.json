@@ -4,6 +4,11 @@
   "main": "lib/index.js",
   "license": "MIT",
   "author": "RDUK <tech@rduk.fr>",
+  "scripts": {
+    "lint": "standard --fix",
+    "pretest": "npm run lint",
+    "test": "exit 0"
+  },
   "dependencies": {
     "amqplib": "^0.5.2",
     "express": "^4.16.3",
@@ -20,6 +25,7 @@
     "@rduk/configuration": "^2.2.0",
     "@rduk/logger": "^1.0.1",
     "@rduk/message-broker": "^2.4.0",
-    "dotenv": "^5.0.1"
+    "dotenv": "^5.0.1",
+    "standard": "^11.0.1"
   }
 }
