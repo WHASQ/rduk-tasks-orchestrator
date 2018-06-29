@@ -1,6 +1,6 @@
 {
   "name": "@rduk/tasks-orchestrator",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "lib/index.js",
   "license": "MIT",
   "author": "RDUK <tech@rduk.fr>",
